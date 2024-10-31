@@ -1,0 +1,262 @@
+{
+    "products": [
+      {
+        "product_id": "S001",
+        "brand": "Adidas",
+        "category": "Shoes",
+        "name": "Ultraboost 21",
+        "image_url": "https://example.com/images/adidas_ultraboost_21.jpg",
+        "price": 17999
+      },
+      {
+        "product_id": "S002",
+        "brand": "Puma",
+        "category": "Shoes",
+        "name": "RS-X Reinvent Sneakers",
+        "image_url": "https://example.com/images/puma_rsx_reinvent.jpg",
+        "price": 8999
+      },
+      {
+        "product_id": "S003",
+        "brand": "Nike",
+        "category": "Shoes",
+        "name": "Air Max 270",
+        "image_url": "https://unsplash.com/photos/unpaired-red-nike-sneaker-164_6wVEHfI",
+        "price": 12999
+      },
+      {
+        "product_id": "S004",
+        "brand": "Reebok",
+        "category": "Shoes",
+        "name": "Classic Leather Sneakers",
+        "image_url": "https://example.com/images/reebok_classic_leather.jpg",
+        "price": 5999
+      },
+      {
+        "product_id": "S005",
+        "brand": "Adidas",
+        "category": "Shoes",
+        "name": "NMD R1",
+        "image_url": "https://example.com/images/adidas_nmd_r1.jpg",
+        "price": 10999
+      },
+      {
+        "product_id": "S006",
+        "brand": "Puma",
+        "category": "Shoes",
+        "name": "Clyde Court",
+        "image_url": "https://example.com/images/puma_clyde_court.jpg",
+        "price": 7999
+      },
+      {
+        "product_id": "S007",
+        "brand": "Asics",
+        "category": "Shoes",
+        "name": "Gel-Kayano 27",
+        "image_url": "https://example.com/images/asics_gel_kayano_27.jpg",
+        "price": 13999
+      },
+      {
+        "product_id": "S008",
+        "brand": "New Balance",
+        "category": "Shoes",
+        "name": "Fresh Foam 1080v11",
+        "image_url": "https://example.com/images/new_balance_fresh_foam_1080v11.jpg",
+        "price": 14999
+      },
+      {
+        "product_id": "C001",
+        "brand": "Chanel",
+        "category": "Clothes",
+        "name": "Chanel Classic tees for Women",
+        "image_url": "https://example.com/images/chanel_classic_flap_bag.jpg",
+        "price": 250000
+      },
+      {
+        "product_id": "C002",
+        "brand": "Gucci",
+        "category": "Clothes",
+        "name": "Ace Shirts",
+        "image_url": "https://example.com/images/gucci_ace_sneakers.jpg",
+        "price": 60000
+      },
+      {
+        "product_id": "C003",
+        "brand": "Prada",
+        "category": "Clothes",
+        "name": "",
+        "image_url": "https://example.com/images/prada_nylon_backpack.jpg",
+        "price": 45000
+      },
+      {
+        "product_id": "C004",
+        "brand": "Dolce & Gabbana",
+        "category": "Clothes",
+        "name": "Sicilian Lace Dress",
+        "image_url": "https://example.com/images/dolce_gabbana_lace_dress.jpg",
+        "price": 120000
+      },
+      {
+        "product_id": "C005",
+        "brand": "Versace",
+        "category": "Clothes",
+        "name": "Baroque Print Shirt",
+        "image_url": "https://example.com/images/versace_baroque_print_shirt.jpg",
+        "price": 35000
+      },
+      {
+        "product_id": "C006",
+        "brand": "Balenciaga",
+        "category": "Clothes",
+        "name": "Triple S Sneakers",
+        "image_url": "https://example.com/images/balenciaga_triple_s_sneakers.jpg",
+        "price": 70000
+      },
+      {
+        "product_id": "C007",
+        "brand": "Burberry",
+        "category": "Clothes",
+        "name": "Classic Trench Coat",
+        "image_url": "https://example.com/images/burberry_trench_coat.jpg",
+        "price": 80000
+      },
+      {
+        "product_id": "C008",
+        "brand": "Fendi",
+        "category": "Clothes",
+        "name": "Peekaboo Bag",
+        "image_url": "https://example.com/images/fendi_peekaboo_bag.jpg",
+        "price": 200000
+      },
+      {
+        "product_id": "E001",
+        "brand": "JBL",
+        "category": "Electronics",
+        "name": "JBL T450BT Wireless Headphones",
+        "image_url": "https://example.com/images/jbl_t450bt.jpg",
+        "price": 3999
+      },
+      {
+        "product_id": "E002",
+        "brand": "Boat",
+        "category": "Electronics",
+        "name": "Boat Rockerz 450",
+        "image_url": "https://example.com/images/boat_rockerz_450.jpg",
+        "price": 2999
+      },
+      {
+        "product_id": "E003",
+        "brand": "Sony",
+        "category": "Electronics",
+        "name": "Sony WH-CH510 Wireless Headphones",
+        "image_url": "https://example.com/images/sony_wh_ch510.jpg",
+        "price": 4999
+      },
+      {
+        "product_id": "E004",
+        "brand": "Boat",
+        "category": "Electronics",
+        "name": "Boat Power Bank 20000mAh",
+        "image_url": "https://example.com/images/boat_powerbank_20000.jpg",
+        "price": 1499
+      },
+      {
+        "product_id": "E005",
+        "brand": "JBL",
+        "category": "Electronics",
+        "name": "JBL Charge 4 Portable Bluetooth Speaker",
+        "image_url": "https://example.com/images/jbl_charge_4.jpg",
+        "price": 12999
+      },
+      {
+        "product_id": "E006",
+        "brand": "Mi",
+        "category": "Electronics",
+        "name": "Mi Power Bank 10000mAh",
+        "image_url": "https://example.com/images/mi_powerbank_10000.jpg",
+        "price": 899
+      },
+      {
+        "product_id": "E007",
+        "brand": "Anker",
+        "category": "Electronics",
+        "name": "Anker PowerCore 20100mAh",
+        "image_url": "https://example.com/images/anker_powercore_20100.jpg",
+        "price": 2499
+      },
+      {
+        "product_id": "E008",
+        "brand": "Boat",
+        "category": "Electronics",
+        "name": "Boat Rockerz 330 Wireless Neckband",
+        "image_url": "https://example.com/images/boat_rockerz_330.jpg",
+        "price": 1999
+      },
+      {
+        "product_id": "M001",
+        "brand": "Apple",
+        "category": "Mobiles",
+        "name": "iPhone 13",
+        "image_url": "https://example.com/images/iphone_13.jpg",
+        "price": 79999
+      },
+      {
+        "product_id": "M002",
+        "brand": "Samsung",
+        "category": "Mobiles",
+        "name": "Samsung Galaxy S21",
+        "image_url": "https://example.com/images/samsung_galaxy_s21.jpg",
+        "price": 69999
+      },
+      {
+        "product_id": "M003",
+        "brand": "OnePlus",
+        "category": "Mobiles",
+        "name": "OnePlus 9",
+        "image_url": "https://example.com/images/oneplus_9.jpg",
+        "price": 49999
+      },
+      {
+        "product_id": "M004",
+        "brand": "Xiaomi",
+        "category": "Mobiles",
+        "name": "Xiaomi Mi 11",
+        "image_url": "https://example.com/images/xiaomi_mi_11.jpg",
+        "price": 44999
+      },
+      {
+        "product_id": "M005",
+        "brand": "Google",
+        "category": "Mobiles",
+        "name": "Google Pixel 6",
+        "image_url": "https://example.com/images/google_pixel_6.jpg",
+        "price": 59999
+      },
+      {
+        "product_id": "M006",
+        "brand": "Oppo",
+        "category": "Mobiles",
+        "name": "Oppo Find X3 Pro",
+        "image_url": "https://example.com/images/oppo_find_x3_pro.jpg",
+        "price": 69990
+      },
+      {
+        "product_id": "M007",
+        "brand": "Vivo",
+        "category": "Mobiles",
+        "name": "Vivo V21",
+        "image_url": "https://example.com/images/vivo_v21.jpg",
+        "price": 29999
+      },
+      {
+        "product_id": "M008",
+        "brand": "Realme",
+        "category": "Mobiles",
+        "name": "Realme GT",
+        "image_url": "https://example.com/images/realme_gt.jpg",
+        "price": 35999
+      }
+    ]
+  }
+  
+  

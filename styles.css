@@ -1,0 +1,165 @@
+body{
+    padding:2%;
+    font-family: sans-serif;
+}
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .lobster-regular {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container{
+    display:flex;
+    flex-direction: column;
+    row-gap:20px;
+}
+.header{
+    /* position:fixed; */
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    background: white;
+    padding-bottom: 2%;
+}
+
+.header .search{
+    width: 50%;
+    padding:1%;
+    border-radius: 5px;
+    border-color: darkblue;
+    cursor:text;
+    background:gainsboro;
+
+}
+.header em{
+    color:rgb(13, 73, 203);
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+}
+.header button{
+    background-image: none;
+    background: none;
+    border:none;
+    cursor:pointer;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.banner{
+
+    width:100%;
+}
+.banner img{
+    width:100%;
+}
+
+
+.category-slider{
+    display:flex;
+    column-gap:20px;
+    height:200px;
+}
+.category-slider div{
+    display:flex;
+    width:33%;
+    height:200px;
+    flex-direction: column;
+    cursor:pointer;
+}
+.category-slider div p{
+    padding: 20px;
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.category-slider div{
+    transition: all .2s ease-in-out; 
+}
+.category-slider div:hover{
+    transform: scale(0.91); 
+}
+.category-slider .shoes p{
+    background:radial-gradient(white,rgb(225, 155, 225)),rgba(0,0,0,2);
+    cursor:pointer;
+}
+.category-slider .clothing p{
+    background:radial-gradient(white, indigo 200%),rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+.category-slider .electronics p{
+    background:radial-gradient(white,rgb(127, 127, 37) 200%),rgba(0,0,0,2);
+    cursor:pointer;
+}
+.category-slider .mobiles p{
+    background:radial-gradient(white,green 200%),rgba(0,0,0,2);
+    cursor:pointer;
+}
+.category-slider img{
+    min-height: 100%;;
+    max-height: 100%;
+    width: 100%;
+}
+.brands{
+    padding-top:2%;
+    position:relative;
+}
+.brand-grid{
+    display:grid;
+    background: linear-gradient(5deg, pink,red 200%);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap:20px;
+    padding: 2%;
+    
+}
+.brand-grid div{
+    transition: all .2s ease-in-out; 
+}
+.brand-grid div:hover{
+    transform: scale(0.9); 
+}
+.brand-grid img{
+    height:100%;
+    width:100%;
+
+}
+.brand-1{
+    background: linear-gradient(45deg, yellow,skyblue );
+    grid-area: 1/1/3/3;
+    cursor:pointer;
+    
+}
+.brand-2{
+    background: linear-gradient(90deg, yellow,skyblue);
+    padding:5%;
+    cursor:pointer;
+}
+.brand-3{
+    background:  linear-gradient(600deg, yellow,skyblue);;
+    padding:5%;
+    cursor:pointer;
+}
+.brand-4{
+    background:  linear-gradient(180deg, yellow,skyblue);;
+    padding:5%;
+    cursor:pointer;
+}
+.random-brand{
+    grid-area: 2/3/3/6;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+    font-family: "Spicy Rice", serif;
+    color:black;
+}

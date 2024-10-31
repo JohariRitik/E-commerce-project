@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Lobster&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <title>Click-Kart</title>
+</head>
+<body>
+    <div class="header">
+        <div><em>Click-Kart</em></div>
+    <input class="search" placeholder="search products"></input>
+    <button class="log-in-btn">Log-In </button>
+    <button onclick="redirectToCart()" class="cart-btn"> Cart</button>
+</div>
+    <div class="container">
+        <div class="banner">
+            <img id="banner-img" src="./Images/banner1.png"/>
+        </div>
+        <div class="category">
+            <h3>Shop By Category</h3>
+            <div class="category-slider">
+                
+                <div onclick="redirectToCategory('Shoes')" class="shoes">
+                    <img src="./Images/shoes.png"/>
+                    <p>Get shoes at min 50% Off</p>
+                </div>
+                <div onclick="redirectToCategory('Clothes')" class="clothing">
+                    <img src="./Images/clothing.png"/>
+                    <p>Get clothes at starting at ₹600</p>
+                </div>
+                <div onclick="redirectToCategory('Electronics')" class="electronics">
+                    <img src="./Images/electronic.png"/>
+                    <p>Electronics at min 70% Off</p>
+                </div>
+                <div onclick="redirectToCategory('Mobiles')" class="mobiles">
+                    <img src="./Images/mobile.png">
+                    <p>Get  mobiles at  30% Off</p>
+                </div>
+            </div>
+        </div>
+         <div class="brands">
+            <h3>Shop by Brands</h3>
+            <div class="brand-grid">
+                <div onclick="redirectToBrand('Apple')" class="brand-1">
+                    <img src="./Images/apple.png">
+                    Apple products 
+                </div>
+                <div onclick="redirectToBrand('Adidas')" class="brand-2">
+                    <img src="./Images/adidas.png">
+                </div>
+                <div onclick="redirectToBrand('Nike')" class="brand-3">
+                    <img src="./Images/nike.png"/>
+                </div>
+                <div onclick="redirectToBrand('Chanel')" class="brand-4">
+                    <img src="./Images/chanel.png">
+                </div>
+                <div class="random-brand">
+                    Shop the best of the brands
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

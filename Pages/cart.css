@@ -1,0 +1,59 @@
+body{
+    font-family:sans-serif;
+    
+}
+h1{
+    text-align: center;
+}
+#cart-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#cart-container{
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    height:80vh;
+    width:100vh;
+    align-items: center;
+    justify-content: center;
+    border:4px solid black;
+    overflow-y: scroll;
+    padding-top: 10%;
+}
+#cart-container div{
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    width:90%;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
+    height:10vh;
+}
+#cart-container div img{
+    width:50px;
+    border:1px solid green;
+    height:50px;
+    margin-right: 2%;
+}
+#cart-container div div{
+    text-align: right;
+}
+#cart-container button{
+    padding:2%;
+    color:aliceblue;
+    background:darkslategrey;
+    font-weight: bold;
+}
+#cart-container p{
+    font-weight: bold;
+    font-size: small;
+}
+
+#bill-container{
+    background-color:black;
+    height:200px;
+}
+
