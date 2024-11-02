@@ -4,18 +4,18 @@ const images = [
     './Images/banner3.png',
     './Images/banner1.png'
 ];
-document.addEventListener('DOMContentLoaded', () => {
-const navbar = document.querySelector('.header');
-let top = navbar.offsetTop;
-function stickynavbar() {
-  if (window.scrollY >= top) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-window.addEventListener('scroll', stickynavbar);
-});
+// document.addEventListener('DOMContentLoaded', () => {
+// const navbar = document.querySelector('.header');
+// let top = navbar.offsetTop;
+// function stickynavbar() {
+//   if (window.scrollY >= top) {    
+//     navbar.classList.add('sticky');
+//   } else {
+//     navbar.classList.remove('sticky');    
+//   }
+// }
+// window.addEventListener('scroll', stickynavbar);
+// });
 
 let currentIndex = 0; // Track the current image index
 const bannerImg = document.getElementById('banner-img');
@@ -39,6 +39,12 @@ function redirectToCategory(category) {
 function redirectToBrand(brand) {
   localStorage.setItem('selectedFilter',brand);
   localStorage.setItem('Filter','Brand');
+  window.location.href='./Pages/products.html';
+}
+
+function redirectToProducts(none){
+  localStorage.setItem('selectedFilter',none);
+  localStorage.setItem('Filter','');
   window.location.href='./Pages/products.html';
 }
 

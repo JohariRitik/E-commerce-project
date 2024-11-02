@@ -1,9 +1,10 @@
-li{
+/* li{
     display:flex;
     column-gap: 10px;
 }
 li img{
     height:200px;
+    background: white;
 }
 li button{
     border:none;
@@ -19,12 +20,13 @@ li .add-cart{
 li .buy-now{
     background:rgb(36, 36, 158);
     
-}
+} */
 #product-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:2%;
     row-gap: 4%;
+    padding:2%;
 }
 .product{
     display:flex;
@@ -33,11 +35,13 @@ li .buy-now{
     align-items: center;
     text-align: center;
     box-shadow:4px 4px slategray;
+    padding-bottom: 2%;
 }
 .product img{
     width:200px;
     height:200px;
     margin-right: 5%;
+    background-image: white;
 }
 .product button{
     width:6rem;
@@ -49,10 +53,25 @@ li .buy-now{
     color:white;
     background: skyblue;
     border:none;
+    cursor:pointer;
 }
 .product .buy-now{
     font-weight: bold;
     color:white;
     background: orange;
     border:none;
+    cursor:pointer;
+}
+.product .buy-now:hover{
+    background: orangered;
+}
+.product .add-to-cart:hover{
+    background:rgb(73, 185, 229);
+}
+@media only screen and (max-width:768px){
+    #product-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
 }

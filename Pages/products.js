@@ -11,6 +11,8 @@ async function loadProducts() {
          filteredProducts= data.products.filter(product => product.category === selectedFilter);
         if(Filter === 'Brand')
          filteredProducts= data.products.filter(product => product.brand === selectedFilter);
+        if(Filter === '')
+            filteredProducts=data.products;
         console.log(filteredProducts);
         
         displayProducts(filteredProducts, selectedFilter);
@@ -22,6 +24,9 @@ async function loadProducts() {
 function displayProducts(products, category) {
     const productContainer = document.getElementById('product-container');
     const categoryTitle = document.getElementById('category-title');
+    if(category==='none')
+        categoryTitle.textContent = `All Products`;
+    else
     categoryTitle.textContent = `${category} Products`;
 
     if (products.length > 0) {

@@ -11,7 +11,11 @@
 </head>
 <body>
     <div class="header">
-        <div><em>Click-Kart</em></div>
+        <div class="logo">
+            <img src="./Images/cart.png"/>
+            <em>Click-Kart</em>
+            
+        </div>
     <input class="search" placeholder="search products"></input>
     <button class="log-in-btn">Log-In </button>
     <button onclick="redirectToCart()" class="cart-btn"> Cart</button>
@@ -19,6 +23,9 @@
     <div class="container">
         <div class="banner">
             <img id="banner-img" src="./Images/banner1.png"/>
+        </div>
+        <div onclick="redirectToProducts('none')" class="Enter-Market">
+            <b>Enter the World of Click-Kart</b>
         </div>
         <div class="category">
             <h3>Shop By Category</h3>
@@ -47,7 +54,7 @@
             <div class="brand-grid">
                 <div onclick="redirectToBrand('Apple')" class="brand-1">
                     <img src="./Images/apple.png">
-                    Apple products 
+                    
                 </div>
                 <div onclick="redirectToBrand('Adidas')" class="brand-2">
                     <img src="./Images/adidas.png">

@@ -5,28 +5,25 @@ body{
 h1{
     text-align: center;
 }
-#cart-grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
 #cart-container{
     background-color: aliceblue;
     display:flex;
     flex-direction: column;
     gap: 10px;
-    height:80vh;
-    width:100vh;
+    height:60vh;
+    width:50%;
     align-items: center;
     justify-content: center;
     border:4px solid black;
     overflow-y: scroll;
     padding-top: 10%;
+    margin-left:25%;
 }
 #cart-container div{
     display:grid;
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
     width:90%;
-    background-color: aqua;
+
     justify-content: space-between;
     align-items: center;
     padding:2%;
@@ -51,9 +48,10 @@ h1{
     font-weight: bold;
     font-size: small;
 }
-
-#bill-container{
-    background-color:black;
-    height:200px;
+@media only screen and (max-width:768px){
+    #cart-container{
+        width:90%;
+        margin-left:5%;
+    }
 }
 

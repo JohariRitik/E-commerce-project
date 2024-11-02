@@ -5,7 +5,7 @@
         "brand": "Adidas",
         "category": "Shoes",
         "name": "Ultraboost 21",
-        "image_url": "https://example.com/images/adidas_ultraboost_21.jpg",
+        "image_url": "../Images/shoe1.webp",
         "price": 17999
       },
       {
@@ -13,7 +13,7 @@
         "brand": "Puma",
         "category": "Shoes",
         "name": "RS-X Reinvent Sneakers",
-        "image_url": "https://example.com/images/puma_rsx_reinvent.jpg",
+        "image_url": "../Images/shoe2.jpg",
         "price": 8999
       },
       {
@@ -21,7 +21,7 @@
         "brand": "Nike",
         "category": "Shoes",
         "name": "Air Max 270",
-        "image_url": "https://unsplash.com/photos/unpaired-red-nike-sneaker-164_6wVEHfI",
+        "image_url": "../Images/shoe3.jpg",
         "price": 12999
       },
       {
@@ -29,7 +29,7 @@
         "brand": "Reebok",
         "category": "Shoes",
         "name": "Classic Leather Sneakers",
-        "image_url": "https://example.com/images/reebok_classic_leather.jpg",
+        "image_url": "../Images/shoe4.jpg",
         "price": 5999
       },
       {
@@ -37,7 +37,7 @@
         "brand": "Adidas",
         "category": "Shoes",
         "name": "NMD R1",
-        "image_url": "https://example.com/images/adidas_nmd_r1.jpg",
+        "image_url": "../Images/shoe4.jpg",
         "price": 10999
       },
       {
@@ -45,7 +45,7 @@
         "brand": "Puma",
         "category": "Shoes",
         "name": "Clyde Court",
-        "image_url": "https://example.com/images/puma_clyde_court.jpg",
+        "image_url": "../Images/shoe2.jpg",
         "price": 7999
       },
       {
@@ -53,7 +53,7 @@
         "brand": "Asics",
         "category": "Shoes",
         "name": "Gel-Kayano 27",
-        "image_url": "https://example.com/images/asics_gel_kayano_27.jpg",
+        "image_url": "../Images/shoe1.webp",
         "price": 13999
       },
       {
@@ -61,7 +61,7 @@
         "brand": "New Balance",
         "category": "Shoes",
         "name": "Fresh Foam 1080v11",
-        "image_url": "https://example.com/images/new_balance_fresh_foam_1080v11.jpg",
+        "image_url": "../Images/shoe3.jpg",
         "price": 14999
       },
       {
@@ -69,7 +69,7 @@
         "brand": "Chanel",
         "category": "Clothes",
         "name": "Chanel Classic tees for Women",
-        "image_url": "https://example.com/images/chanel_classic_flap_bag.jpg",
+        "image_url": "../Images/tee2.png",
         "price": 250000
       },
       {
@@ -77,15 +77,15 @@
         "brand": "Gucci",
         "category": "Clothes",
         "name": "Ace Shirts",
-        "image_url": "https://example.com/images/gucci_ace_sneakers.jpg",
+        "image_url": "../Images/shirt1.png",
         "price": 60000
       },
       {
         "product_id": "C003",
         "brand": "Prada",
         "category": "Clothes",
-        "name": "",
-        "image_url": "https://example.com/images/prada_nylon_backpack.jpg",
+        "name": "Comfort Jacket",
+        "image_url": "../Images/hoddie2.png",
         "price": 45000
       },
       {
@@ -93,7 +93,7 @@
         "brand": "Dolce & Gabbana",
         "category": "Clothes",
         "name": "Sicilian Lace Dress",
-        "image_url": "https://example.com/images/dolce_gabbana_lace_dress.jpg",
+        "image_url": "../Images/tee1.png",
         "price": 120000
       },
       {
@@ -101,7 +101,7 @@
         "brand": "Versace",
         "category": "Clothes",
         "name": "Baroque Print Shirt",
-        "image_url": "https://example.com/images/versace_baroque_print_shirt.jpg",
+        "image_url": "../Images/clothing.png",
         "price": 35000
       },
       {
@@ -133,7 +133,7 @@
         "brand": "JBL",
         "category": "Electronics",
         "name": "JBL T450BT Wireless Headphones",
-        "image_url": "https://example.com/images/jbl_t450bt.jpg",
+        "image_url": "../Images/headphone1.png",
         "price": 3999
       },
       {
@@ -141,7 +141,7 @@
         "brand": "Boat",
         "category": "Electronics",
         "name": "Boat Rockerz 450",
-        "image_url": "https://example.com/images/boat_rockerz_450.jpg",
+        "image_url": "../Images/boat1.jpg",
         "price": 2999
       },
       {
@@ -149,7 +149,7 @@
         "brand": "Sony",
         "category": "Electronics",
         "name": "Sony WH-CH510 Wireless Headphones",
-        "image_url": "https://example.com/images/sony_wh_ch510.jpg",
+        "image_url": "../Images/download.jpg",
         "price": 4999
       },
       {
@@ -157,7 +157,7 @@
         "brand": "Boat",
         "category": "Electronics",
         "name": "Boat Power Bank 20000mAh",
-        "image_url": "https://example.com/images/boat_powerbank_20000.jpg",
+        "image_url": "../Images/download (1).jpg",
         "price": 1499
       },
       {
@@ -165,7 +165,7 @@
         "brand": "JBL",
         "category": "Electronics",
         "name": "JBL Charge 4 Portable Bluetooth Speaker",
-        "image_url": "https://example.com/images/jbl_charge_4.jpg",
+        "image_url": "../Images/speakker.jpg",
         "price": 12999
       },
       {
@@ -197,7 +197,7 @@
         "brand": "Apple",
         "category": "Mobiles",
         "name": "iPhone 13",
-        "image_url": "https://example.com/images/iphone_13.jpg",
+        "image_url": "../Images/iphone13.jpg",
         "price": 79999
       },
       {
@@ -205,7 +205,7 @@
         "brand": "Samsung",
         "category": "Mobiles",
         "name": "Samsung Galaxy S21",
-        "image_url": "https://example.com/images/samsung_galaxy_s21.jpg",
+        "image_url": "../Images/samsung1.jpg",
         "price": 69999
       },
       {
@@ -213,7 +213,7 @@
         "brand": "OnePlus",
         "category": "Mobiles",
         "name": "OnePlus 9",
-        "image_url": "https://example.com/images/oneplus_9.jpg",
+        "image_url": "../Images/op1.jpg",
         "price": 49999
       },
       {
@@ -221,7 +221,7 @@
         "brand": "Xiaomi",
         "category": "Mobiles",
         "name": "Xiaomi Mi 11",
-        "image_url": "https://example.com/images/xiaomi_mi_11.jpg",
+        "image_url": "../Images/mi.jpg",
         "price": 44999
       },
       {

@@ -16,21 +16,18 @@
             productContainer.innerHTML = ''; // Clear previous content
 
             if (cart.length === 0) {
-                productContainer.innerHTML = '<p>Your cart is empty.</p>';
+                productContainer.innerHTML = '<img src="../Images/dog.jpg"><p>Your cart is empty.</p>';
                 return;
             }
-
-            // Fetch product data (assuming we have a JSON or API)
             fetch('../Assets/shoes.json')
                 .then(response => response.json())
                 .then(data => {
                     const allProducts = data.products;
                     var subtotal=0;
-                    // Display each item in the cart
                     cart.forEach(item => {
                         const product = allProducts.find(p => p.product_id === item.product_id);
                         
-                        subtotal+=product.price;
+            
                         if (product) {
                             const productDiv = document.createElement('div');
                             productDiv.classList.add('cart-item');
@@ -46,8 +43,17 @@
                                 <button onclick="removeFromCart('${item.product_id}')">Remove</button>
                             `;
                             productContainer.appendChild(productDiv);
+                            subtotal+=product.price * item.quantity;
                         }
                     });
+                    const totalDiv=document.createElement("div");
+                    totalDiv.classList.add('cart-total');
+                    totalDiv.innerHTML=`
+                    <hr>
+                    <h2>Total Amount: ₹${subtotal}</h2>
+                    <button onclick="checkout()"> Proceed to Checkout</button>
+                    `;
+                    productContainer.appendChild(totalDiv);
                 })
                 .catch(error => {
                     console.error('Error loading product data:', error);
@@ -61,6 +67,12 @@
             cart = cart.filter(item => item.product_id !== productId); // Remove the selected item
             saveCart(cart); // Update localStorage
             displayCart(); // Refresh cart display
+        }
+
+        function checkout(){
+            localStorage.removeItem('cart');
+            window.location.href='../index.html';
+        
         }
 
         // Load the cart when the page is ready
