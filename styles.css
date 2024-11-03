@@ -60,6 +60,40 @@ body{
     font-weight: bold;
     width:8%;
 }
+#hero{
+    text-align: center;
+    height:300px; 
+    color:darkblue;
+    display:flex;
+    flex-direction: column-reverse;
+    background: url("./Images/deco3.png"),linear-gradient(180deg,darkred,yellow);
+    background-blend-mode:lighten;
+    background-size: contain;
+    background-repeat:round;
+    align-items: center;
+    justify-content: center;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+#hero h1{
+    font-size: 36px;
+    background: url("./Images/deco3.png");
+}
+#hero b{
+    font-size: 40px;
+}
+#hero img{
+    height:200px;
+}
+#decor{
+    display:flex;
+    justify-content: space-between;
+}
+#deco2:hover{
+    transform:rotate(10deg);
+}
+
+    
 .cart-btn:hover{
     background:black;
     color:white;

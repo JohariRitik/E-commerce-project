@@ -72,9 +72,11 @@ function addToCart(productId){
     else{
         cart.push({product_id:productId,quantity:1});
     }
+
     saveCart(cart);
     updateCartCount();
     console.log("Added to cart:",productId);
+    showToast("Product added to cart!");
 }   
 
 function updateCartCount(){
@@ -94,4 +96,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 function redirectToCart(){
     window.location.href="./cart.html";
+}
+
+function showToast(message) {
+    const toast = document.getElementById("toast");
+    toast.textContent = message; // Set custom message
+    toast.classList.add("show");
+
+    // Hide the toast after 3 seconds
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 3000);
 }

@@ -71,7 +71,7 @@
 
         function checkout(){
             localStorage.removeItem('cart');
-            window.location.href='../index.html';
+            window.location.href='./success.html';
         
         }
 
