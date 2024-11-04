@@ -39,8 +39,8 @@ function displayProducts(products, category) {
                 <h3>${product.name}</h3>
                 <p>Brand: ${product.brand}</p>
                 <p>Price: ₹${product.price}</p>
-                <button class="add-to-cart"> Add to Cart</button>
-                <button class="buy-now"> Buy Now</button>
+                <button  class="add-to-cart"> Add to Cart</button>
+                <button onclick="redirectToSuccess()" class="buy-now"> Buy Now</button>
                 </div>
             `;
             productContainer.appendChild(productDiv);
@@ -107,4 +107,8 @@ function showToast(message) {
     setTimeout(() => {
         toast.classList.remove("show");
     }, 3000);
+}
+function redirectToSuccess()
+{
+    window.location.href="./success.html";
 }
