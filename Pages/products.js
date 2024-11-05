@@ -112,3 +112,6 @@ function redirectToSuccess()
 {
     window.location.href="./success.html";
 }
+function redirectToHome(){
+    window.location.href="../index.html";
+}

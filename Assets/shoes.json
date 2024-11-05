@@ -109,7 +109,7 @@
         "brand": "Balenciaga",
         "category": "Clothes",
         "name": "Triple S Sneakers",
-        "image_url": "https://example.com/images/balenciaga_triple_s_sneakers.jpg",
+        "image_url": "../Images/tee2.png",
         "price": 70000
       },
       {
@@ -117,7 +117,7 @@
         "brand": "Burberry",
         "category": "Clothes",
         "name": "Classic Trench Coat",
-        "image_url": "https://example.com/images/burberry_trench_coat.jpg",
+        "image_url": "../Images/shirt1.png",
         "price": 80000
       },
       {
@@ -125,7 +125,7 @@
         "brand": "Fendi",
         "category": "Clothes",
         "name": "Peekaboo Bag",
-        "image_url": "https://example.com/images/fendi_peekaboo_bag.jpg",
+        "image_url": "../Images/clothing.png",
         "price": 200000
       },
       {
@@ -173,7 +173,7 @@
         "brand": "Mi",
         "category": "Electronics",
         "name": "Mi Power Bank 10000mAh",
-        "image_url": "https://example.com/images/mi_powerbank_10000.jpg",
+        "image_url": "../Images/download (1).jpg",
         "price": 899
       },
       {
@@ -189,7 +189,7 @@
         "brand": "Boat",
         "category": "Electronics",
         "name": "Boat Rockerz 330 Wireless Neckband",
-        "image_url": "https://example.com/images/boat_rockerz_330.jpg",
+        "image_url": "../Images/download.jpg",
         "price": 1999
       },
       {
@@ -229,7 +229,7 @@
         "brand": "Google",
         "category": "Mobiles",
         "name": "Google Pixel 6",
-        "image_url": "https://example.com/images/google_pixel_6.jpg",
+        "image_url": "../Images/op1.jpg",
         "price": 59999
       },
       {
@@ -237,7 +237,7 @@
         "brand": "Oppo",
         "category": "Mobiles",
         "name": "Oppo Find X3 Pro",
-        "image_url": "https://example.com/images/oppo_find_x3_pro.jpg",
+        "image_url": "../Images/samsung1.jpg",
         "price": 69990
       },
       {
@@ -245,7 +245,7 @@
         "brand": "Vivo",
         "category": "Mobiles",
         "name": "Vivo V21",
-        "image_url": "https://example.com/images/vivo_v21.jpg",
+        "image_url": "../Images/samsung1.jpg",
         "price": 29999
       },
       {
@@ -253,7 +253,7 @@
         "brand": "Realme",
         "category": "Mobiles",
         "name": "Realme GT",
-        "image_url": "https://example.com/images/realme_gt.jpg",
+        "image_url": "../Images/mi.jpg",
         "price": 35999
       }
     ]
