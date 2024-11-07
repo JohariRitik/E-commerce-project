@@ -85,7 +85,7 @@ function updateCartCount(){
     const cartCountElement=document.getElementById('cart-count');
 
     if(cartCountElement){
-        cartCountElement.textcontent=cartCount;
+        cartCountElement.textContent=cartCount;
     }
 }
 

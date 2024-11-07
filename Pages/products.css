@@ -1,27 +1,53 @@
-/* li{
+body{
+
+    display:flex ;
+    flex-direction: column;
+    min-height: 100vh;
+    padding:2%;
+    font-family: sans-serif;
+}
+.header{
+    /* position:fixed; */
     display:flex;
-    column-gap: 10px;
-}
-li img{
-    height:200px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3%;
     background: white;
+    padding-bottom: 2%;
 }
-li button{
-    border:none;
-    width:100px;
-    height:20%;
-    border-radius: 5%;
-    color:white;
-}
-li .add-cart{
-    background: orange;
-    font-weight: bold;
-}
-li .buy-now{
-    background:rgb(36, 36, 158);
-    
+/* .header .logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 } */
- /* Toast styles */
+.header .search{
+    width: 50%;
+    padding:1%;
+    border-radius: 5px;
+    border-color: darkblue;
+    cursor:text;
+    background:gainsboro;
+
+}
+.header img{
+    height:30px;
+}
+.header em{
+    color:rgb(13, 73, 203);
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 1.0rem;
+    cursor:pointer;
+}
+.header button{
+    background-image: none;
+    background: none;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+    width:8%;
+}
  .toast {
     visibility: hidden; 
     min-width: 250px;
@@ -44,13 +70,26 @@ li .buy-now{
     visibility: visible;
     opacity: 1;
 }
-
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+    flex-grow: 1; 
+    box-sizing:border-box ;
+    margin-bottom: 10%;
+}
 #product-container{
+    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:2%;
     row-gap: 4%;
     padding:2%;
+    
+    
 }
 .product{
     display:flex;
@@ -92,10 +131,41 @@ li .buy-now{
 .product .add-to-cart:hover{
     background:rgb(73, 185, 229);
 }
+
+  
+  .payment-icons img {
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.9em;
+    color: #888;
+  }
 @media only screen and (max-width:768px){
     #product-container{
         display:grid;
         grid-template-columns: 1fr 1fr;
         row-gap: 20px;
     }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+      }
 }
